@@ -5,7 +5,7 @@
 
 Exportar (descarga) el archivo `configuration.xml`.
 
-## Realizar la descarga de los archivos de instalación
+## Descarga los archivos de instalación
 ```
 setup.exe /download configuration.xml
 ```
