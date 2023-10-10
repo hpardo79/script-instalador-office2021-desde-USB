@@ -10,6 +10,11 @@ Exportar (descarga) el archivo `configuration.xml`.
 setup.exe /download configuration.xml
 ```
 
+## Crear USB de instalación 
+Copia los archivos descargados, incluidos los de este repositorio en la memoria o disco USB. 
+
+# Instalando Office
+
 ## Ejecutar el Script CMD
 Para iniciar la instalación solo se requiere ejecutar el Script `RunSetup.cmd` el mismo ejecutara los comandos de PowerShell contenidos en el `AddSource.ps1` que modifican a su vez el `configuration.xml`, todo esto es necesario ya que al momento de conectar la unidad USB la misma toma una Letra de Unidad que tenga disponible y esta puede variar entre los equipos dependiendo de los dispositivos ya conectados. La ruta especifica sera detectada y actualizada en el archivo de configuracion `xml` por los scripts.
 
